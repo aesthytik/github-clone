@@ -22,8 +22,8 @@ class User extends React.Component {
         return (
             <li key={stat.name} className="user-info__stat">
                 <Link to={stat.url}>
-                    <p className="user-info__stat-value">{stat.value}</p>
-                    <p className="user-info__stat-name">{stat.name}</p>
+                    <p className="user-info__stat-value" style={{fontSize: '50px'}}>{stat.value}</p>
+                    <p className="user-info__stat-name" style={{fontSize: '50px'}}>{stat.name}</p>
                 </Link>
             </li>
         );
